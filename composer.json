@@ -1,0 +1,24 @@
+{
+    "name": "brooksyang/bech32m",
+    "description": "Pure (no dependencies) implementation of bech32m in php",
+    "license": "MIT",
+    "type": "library",
+    "homepage": "https://github.com/BrooksYang/bech32m",
+    "authors": [
+        {
+            "name": "Brooks Yang",
+            "homepage": "https://github.com/BrooksYang",
+            "role": "Author"
+        }
+    ],
+    "keywords": [
+        "bech32m",
+        "bech32m-php"
+    ],
+    "autoload": {
+        "psr-4": {
+            "BrooksYang\\Bech32m\\": "src/"
+        }
+    }
+}
+
