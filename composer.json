@@ -18,7 +18,13 @@
     "autoload": {
         "psr-4": {
             "BrooksYang\\Bech32m\\": "src/"
-        }
-    }
+        },
+        "files": [
+            "src/bech32m.php",
+            "src/Exception/Bech32mException.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
 
